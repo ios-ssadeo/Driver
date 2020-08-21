@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_your_trips"
+            android:title="@string/your_trips"
+            android:icon="@drawable/ic_my_trips"
+            />
+        <item
+            android:id="@+id/nav_earnings"
+            android:title="@string/earnings"
+            android:icon="@drawable/ic_earnings"/>
+        <item
+            android:id="@+id/nav_summary"
+            android:title="@string/summary"
+            android:icon="@drawable/ic_summary"/>
+        <item
+            android:id="@+id/nav_document"
+            android:title="@string/document"
+            android:icon="@drawable/ic_document"/>
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/help"
+            android:icon="@drawable/ic_help"/>
+        <item
+            android:id="@+id/nav_share"
+            android:title="@string/share"
+            android:icon="@drawable/ic_share"/>
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="@string/about_us"
+            android:icon="@drawable/ic_contact_info"/>
+
+
+        <item
+            android:id="@+id/nav_faq"
+            android:title="@string/faq"
+            android:icon="@drawable/ic_faq"/>
+
+        <item
+            android:id="@+id/nav_invite_referral"
+            android:title="@string/invite_referral"
+            android:visible="false"
+            android:icon="@drawable/ic_refer"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout"
+            android:icon="@drawable/ic_logout"/>
+    </group>
+</menu>
